@@ -1,0 +1,4 @@
+/* app.wxss */
+page {
+  font-family: Arial, sans-serif;
+}

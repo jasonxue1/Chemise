@@ -1,0 +1,29 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# macOS 系统文件
+.DS_Store
+
+# 微信小程序生成的文件
+/.wechat-miniprogram/
+.idea/
+.vscode/
+
+# 编译输出目录
+/dist/
+build/
+
+# 配置文件
+project.config.json
+
+# 临时文件
+temp/
+*.swp
+*.swo
+*.bak
+
+# 密钥等敏感文件
+*.pem
+*.key
