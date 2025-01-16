@@ -4,7 +4,7 @@
   
   <!-- 输入区域 -->
   <view class="input-area">
-    <input id="chemInput" placeholder="输入未配平方程式，例如：H2 + O2 = H2O" bindinput="onInput" />
+    <input id="chemInput" placeholder="输入未配平方程式" bindinput="onInput" />
     <button bindtap="processStart">配平</button>
   </view>
   
@@ -23,7 +23,7 @@
   <!-- 使用说明 -->
   <view class="instructions">
     <text class="instructions-title">使用方法：</text>
-    <text>输入一个未配平的化学方程式，例如：H2 + O2 = H2O</text>
-    <text>支持离子表达方式：例如 Ca^2* 表示钙离子，SO4^2- 表示硫酸根。</text>
+    <text>输入一个未配平的化学方程式，例如：\nH2 + O2 = H2O\n\n</text>
+    <text>支持离子表达方式：\n例如 Ca^2* 表示钙离子，SO4^2- 表示硫酸根</text>
   </view>
 </view>
