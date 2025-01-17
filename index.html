@@ -29,7 +29,7 @@
         <h1>化学方程式配平</h1>
         <!-- 输入框和按钮 -->
         <div class="input-area">
-            <input id="chemInput" placeholder="输入未配平方程式，例如：H2 + O2 = H2O" />
+            <input id="chemInput" placeholder="输入未配平方程式" />
             <button id="start" onclick="processStart()">配平</button>
         </div>
         <!-- 输出区域 -->
@@ -38,7 +38,7 @@
         </div>
         <!-- 警告区域 -->
         <div id="warning" hidden>
-            <p style="color: red;">方程式配平失败，请检查输入格式。</p>
+            <p>方程式配平失败，请检查输入格式。</p>
         </div>
         <!-- 隐藏的显示区域 -->
         <div id="showdiv" hidden>
@@ -47,8 +47,8 @@
         <!-- 使用说明 -->
         <div class="instructions">
             <h2>使用方法：</h2>
-            <p>输入一个未配平的化学方程式，例如：H2 + O2 = H2O</p>
-            <p>支持离子表达方式：例如 Ca^2* 表示钙离子，SO4^2- 表示硫酸根。</p>
+            <p>输入一个未配平的化学方程式，例如：\nH2 + O2 = H2O\n</p>
+            <p>支持离子表达方式：\n例如 Ca^2* 表示钙离子，SO4^2- 表示硫酸根</p>
         </div>
     </div>
     <!-- 脚本文件 -->
