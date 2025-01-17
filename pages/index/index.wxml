@@ -1,29 +1,3 @@
-<!-- pages/index/index.wxml -->
 <view class="container">
-  <text class="title">化学方程式配平</text>
-  
-  <!-- 输入区域 -->
-  <view class="input-area">
-    <input id="chemInput" placeholder="输入未配平方程式" bindinput="onInput" />
-    <button bindtap="processStart">配平</button>
-  </view>
-  
-  <!-- 输出区域 -->
-  <view class="output-area">
-    <view wx:if="{{output}}" class="mathjax-output">
-      <text>{{output}}</text>
-    </view>
-  </view>
-  
-  <!-- 警告区域 -->
-  <view wx:if="{{warning}}" class="warning">
-    <text>方程式配平失败，请检查输入格式。</text>
-  </view>
-  
-  <!-- 使用说明 -->
-  <view class="instructions">
-    <text class="instructions-title">使用方法：</text>
-    <text>输入一个未配平的化学方程式，例如：\nH2 + O2 = H2O\n\n</text>
-    <text>支持离子表达方式：\n例如 Ca^2* 表示钙离子，SO4^2- 表示硫酸根</text>
-  </view>
+  <web-view src="https://jasonxue1.github.io"></web-view>
 </view>
